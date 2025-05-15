@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Ali graphy</title>
+    <!-- Font Awesome CDN for contact icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-papm6Q+ua5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">Ali Graphy</a>
+
+            <button class="navbar-toggler" aria-label="Toggle navigation">
+                <!-- Simple hamburger icon using spans -->
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                <!-- Or use Font Awesome (uncomment below and comment spans above) -->
+                <!-- <i class="fas fa-bars"></i> -->
+            </button>
+
+            <ul class="navbar-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallary">Gallary</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="home container" id="home">
+        <div class="home-img">
+            <img src="FB_IMG_1747222902245.jpg" alt="">
+
+        </div>
+        <div class="home-text">
+            <h1>Ali <span>Graphy</span></h1>
+            <h3>Professional Photographer & Designer</h3>
+            <p class="tagline">Capturing Life's Beautiful Moments</p>
+            <div class="home-description">
+                <p>Specializing in portrait, event, and commercial photography. Creating visual stories that last forever.</p>
+            </div>
+            <div class="home-stats">
+                <div class="stat-item">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Slider Section -->
+    <section id="gallary" class="slider-section container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="Screenshot_20250514-144245_1.jpg" alt="Slider Image 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Screenshot_20250514-144305_1.jpg" alt="Slider Image 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Screenshot_20250514-144339_1.jpg" alt="Slider Image 3">
+                </div>
+            </div>
+            <!-- Add navigation buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Add pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    <!-- Contact Icons Section -->
+    <section id="contact" class="contact-icons container">
+        <a href="https://www.facebook.com/share/16UXZ3gUvg/" class="contact-icon" title="Email"><i class='bx bxl-facebook'></i></a>
+        <a href="tel:+1234567890" class="contact-icon" title="Phone"><i class='bx bxs-phone'></i></a>
+        <!-- <a href="https://www.linkedin.com/in/yourprofile" class="contact-icon" title="LinkedIn" target="_blank"><i class='bx bxl-linkedin'></i></a> -->
+        <a href="https://www.instagram.com/graphy.ali?igsh=YmtmcTBobHBraDdr" class="contact-icon" title="Instagram" target="_blank"><i class='bx bxl-instagram'></i></a>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Developed by <a href="https://braaomar.github.io/Albraa-Krjously/" target="_blank">Albraa Krjously</a></p>
+            <p class="copyright">&copy; 2025 All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+      
+        const swiper = new Swiper()
+      </script>
+</body>
+</html>
